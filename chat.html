@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Weather chat</title>
+  <!-- use google icon -->
+  <link rel="stylesheet" href="css/chat.css">
+</head>
+
+<body>
+
+
+  <div class="login">
+    <div class="form">
+      <h3 class="title">Please input nickname:</h3>
+      <input id="usernameInput" type="text" maxlength="14" />
+    </div>
+  </div>
+
+  <div id=chat>
+    <div class= chat_area>
+        <ul id="messages"></ul>
+    </div>
+   
+    <div id=inputfield>
+      <input id="inputMessage" placeholder="Type here..."><button id=sendmessage>Send</button>
+    </div>
+
+
+  </div>
+
+
+
+
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/jquery-1.11.1.js"></script>
+  <script src="/js/login.js"></script>
+  <script src="/js/chat.js"></script>
+</body>
+
+</html>
