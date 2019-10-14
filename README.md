@@ -4,8 +4,8 @@
 
 ## Usage
 ```bash
-$ npm install express
-$ npm star
+$ npm install 
+$ npm start
 ```
 ## Feature
 1. Notification when users join and leave.  
